@@ -32,8 +32,10 @@ pyautogui.typewrite("https://172.16.1.1:8090/httpclient.html?u=http://www.msftco
 
 time.sleep(0.5)
 
+# print(pyautogui.KEYBOARD_KEYS) can be used to see the different keys we can type.
 # The enter key on the keyboard should be typed to enter the url and get to the site.
 pyautogui.press('enter')
+
 
 time.sleep(0.5)
 
